@@ -1,5 +1,5 @@
-class BackBone.Routers.UsersRouter extends Backbone.Router
-  initialize: (options) ->
+# class BackBone.Routers.UsersRouter extends Backbone.Router
+#   initialize: (options) ->
 
-  routes: ->
+#   routes: ->
 

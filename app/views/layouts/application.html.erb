@@ -12,3 +12,17 @@
     <%= yield %>
   </body>
 </html>
+<script type="text/javascript">
+  //window.indexView = new BackBone.Views.Users.IndexView();
+  //indexView.render();
+  window.router = new myRouter();
+  Backbone.history.start({pushState:true});
+
+$(function(){
+
+  $('a').click(function(){
+    router.navigate($(this).attr('href'), {trigger: true});
+    return false;
+  });
+});
+</script>
